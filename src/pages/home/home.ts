@@ -10,5 +10,18 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  // FFDP
+  A_Caratula(){
 
+  }
+  A_Nombre(){
+
+  }
+  A_Titulo(){
+
+  }
+  A_Valoraciones(){
+
+  }
+  
 }

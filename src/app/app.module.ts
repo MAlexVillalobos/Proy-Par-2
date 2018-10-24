@@ -92,3 +92,4 @@ import { EValoracionPage } from '../pages/e-valoracion/e-valoracion';
   ]
 })
 export class AppModule {}
+

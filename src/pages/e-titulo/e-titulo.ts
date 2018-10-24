@@ -15,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ETituloPage {
 
+  canciones = ['Blackened','And Justice For All','Eye Of The Beholder','One','The Shortest Straw','Harvester Of Sorrow','The Frayed Ends Of Sanity','To Live Is To Die','Dyers Eve']
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

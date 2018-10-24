@@ -7,12 +7,16 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>B_Titulo</ion-title>
+    <ion-title>Gratest Hits</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
-</ion-content>
+<ion-content padding style="background: #17375B">
+    <ion-list *ngFor="let cancion of canciones">
+      <h5 style="color: white">
+        {{cancion}}
+      </h5>
+    </ion-list>
+  </ion-content>

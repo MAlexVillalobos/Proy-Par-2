@@ -15,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CTituloPage {
 
+  canciones = ['Tease Me Please Me','Dont Believe Her','To Be With You In Heaven','Restless Night','Kicks After Six','Crazy World','Send Me An Angel']
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

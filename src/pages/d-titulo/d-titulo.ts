@@ -15,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DTituloPage {
 
+  canciones = ['Welcome To The Jungle','Its So Easy','Nightrain','Out Ta Get Me','Mr Brownstone','Paradise City','My Michelle','Think About You','Sweet Child o Mine','Youre Crazy','Anything Goes','Rocket Queen']
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

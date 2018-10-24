@@ -19,6 +19,7 @@ import { ECaratulaPage } from '../e-caratula/e-caratula';
 import { ENombrePage } from '../e-nombre/e-nombre';
 import { ETituloPage } from '../e-titulo/e-titulo';
 import { EValoracionPage } from '../e-valoracion/e-valoracion';
+import { BNombrePage } from '../b-nombre/b-nombre';
 
 @Component({
   selector: 'page-home',
@@ -32,7 +33,7 @@ export class HomePage {
   AV = AValoracionPage;
 
   BC = BCaratulaPage;
-  BN = BCaratulaPage;
+  BN = BNombrePage;
   BT = BTituloPage;
   BV = BValoracionPage;
 
